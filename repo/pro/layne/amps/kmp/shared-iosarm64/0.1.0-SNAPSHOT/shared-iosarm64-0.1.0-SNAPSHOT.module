@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../shared/0.1.0-SNAPSHOT/shared-0.1.0-SNAPSHOT.module",
+    "group": "pro.layne.amps.kmp",
+    "module": "shared",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-iosArm64Main-0.1.0-SNAPSHOT.klib",
+          "url": "shared-iosarm64-0.1.0-SNAPSHOT.klib",
+          "size": 6398,
+          "sha512": "114ab5a989c23aa08a1a8e37d0ebdc4167ccdf6c4fc4f7cc845cac70e9afb457c7cb014cbbc4481eda2e8b3487fc89c9be232eb699ac7c1d8b4bd224057cb646",
+          "sha256": "d1eeec8969bfddc6fdf5a39b80c18125b32670b699e0265eaaef96a345bca0d0",
+          "sha1": "5646f0710bf005ca7a42f57732c6fc18894f062c",
+          "md5": "f255d234e89b021d5c6b45c814f071d9"
+        },
+        {
+          "name": "shared-iosArm64Cinterop-OtelMain-0.1.0-SNAPSHOT.klib",
+          "url": "shared-iosarm64-0.1.0-SNAPSHOT-cinterop-Otel.klib",
+          "size": 3068521,
+          "sha512": "50c2217b653e5c79e02d4b0c4774206d897664454dc76586d1cf4fff67fa4895ad9d68456c55aee8882c4b77c312b95b34bf9c79b041480869cfaba5917720d8",
+          "sha256": "53e081f32bab0e15271ab876372df13bee116b074e5be9141976fff2ce92100a",
+          "sha1": "726e2da5f5b0d260dc6aba4131d2620303cbe74d",
+          "md5": "0322c0f244b5c858cae0a0a73f3b3958"
+        },
+        {
+          "name": "shared-iosArm64Cinterop-EmbraceIOMain-0.1.0-SNAPSHOT.klib",
+          "url": "shared-iosarm64-0.1.0-SNAPSHOT-cinterop-EmbraceIO.klib",
+          "size": 10652,
+          "sha512": "65fef46461ed81a23a7ec2f0a4cd0ad226f803807f826b11fdfe7684bb15b3d4456043cf926c2ad6a2bf3577c1172dbd0456db49d1d448d96476d8a36cf88ef7",
+          "sha256": "c4d9a1b1adde4ed24488de93da385539daed2305670ac77cb4444ac2f111702b",
+          "sha1": "60d5826853ece362045f16569bbbc26839f0e2c4",
+          "md5": "6c73c42bc16f98fed8af97a8be41152f"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "shared-iosarm64-0.1.0-SNAPSHOT-sources.jar",
+          "url": "shared-iosarm64-0.1.0-SNAPSHOT-sources.jar",
+          "size": 2556,
+          "sha512": "f8dc9206fd6ecf2c0c728b76d3ff5e9f905f154568904358b17759c1fbd550301580b30794961ce4890f50d91f90015324982ea48e874918f62d55439a54a305",
+          "sha256": "a714aaedbaf7cbd249ad9843a5eab218dd79934d50e29c8bb13bd886c589f46b",
+          "sha1": "9fac74d5db9bc3d7bf4a27f6b7883b1f68f2d448",
+          "md5": "df0a33669ba32f87ba9d55486d57c546"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-iosarm64-0.1.0-SNAPSHOT-metadata.jar",
+          "url": "shared-iosarm64-0.1.0-SNAPSHOT-metadata.jar",
+          "size": 43263,
+          "sha512": "5d8f3cd076bb68c7e13503e91c307c509d78dbc13943d9969c72ea980224e953256d199165253a5711e67556727fa387a8e96b7d2d3c356fe2c8104b87954237",
+          "sha256": "c1610fd9bc538b45ebbcfea63e05f59bf14d32fd76cb5aaf3866fe051fc3f12a",
+          "sha1": "cb38ea62fb0a3548f86adcae242d5996a333e897",
+          "md5": "7d3ed0d6d654118815232016a7de0442"
+        }
+      ]
+    }
+  ]
+}
