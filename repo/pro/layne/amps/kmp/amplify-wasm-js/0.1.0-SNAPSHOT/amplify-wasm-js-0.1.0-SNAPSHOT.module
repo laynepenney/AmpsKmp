@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../amplify/0.1.0-SNAPSHOT/amplify-0.1.0-SNAPSHOT.module",
+    "group": "pro.layne.amps.kmp",
+    "module": "amplify",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amplify-wasm-js-0.1.0-SNAPSHOT.klib",
+          "url": "amplify-wasm-js-0.1.0-SNAPSHOT.klib",
+          "size": 5216,
+          "sha512": "62d0c8fc2508cc3b0eeec7a2db2db50e0a42bcbe6ae889a89e1e5d547c7d2177ed706eee48438a0ee31e973dac26139e34eca85073a06fd167ad6082f93fa1fd",
+          "sha256": "09ce843df9a900cd011c78530942fbe76d1e4fc3dc444a7b34cdc633bc073d71",
+          "sha1": "aa078d766055502d18a7e4dba700d35a8fd18f51",
+          "md5": "081eb6ed4f3c81cbf0aedd1b766a777c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amplify-wasm-js-0.1.0-SNAPSHOT.klib",
+          "url": "amplify-wasm-js-0.1.0-SNAPSHOT.klib",
+          "size": 5216,
+          "sha512": "62d0c8fc2508cc3b0eeec7a2db2db50e0a42bcbe6ae889a89e1e5d547c7d2177ed706eee48438a0ee31e973dac26139e34eca85073a06fd167ad6082f93fa1fd",
+          "sha256": "09ce843df9a900cd011c78530942fbe76d1e4fc3dc444a7b34cdc633bc073d71",
+          "sha1": "aa078d766055502d18a7e4dba700d35a8fd18f51",
+          "md5": "081eb6ed4f3c81cbf0aedd1b766a777c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "amplify-wasm-js-0.1.0-SNAPSHOT-sources.jar",
+          "url": "amplify-wasm-js-0.1.0-SNAPSHOT-sources.jar",
+          "size": 2367,
+          "sha512": "466c8109423810e85663b0dc19843031a5d174d3cbad2bfbbbb20e4caef377060756f1477eb63335720fd4f4aa4a6b258dde1ca8553631e7d0a977105ec06d32",
+          "sha256": "c7d2dc39ebf770d13b59c7d55e40ecdebc297fb77a9569d0eeaedd34581f17e0",
+          "sha1": "f76408d076ce2366d1a90e84c8bd21b9f3425e9d",
+          "md5": "74683b668af12bc0bf0091e8e59ab2fa"
+        }
+      ]
+    }
+  ]
+}

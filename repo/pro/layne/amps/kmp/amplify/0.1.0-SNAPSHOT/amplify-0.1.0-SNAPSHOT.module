@@ -1,0 +1,325 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pro.layne.amps.kmp",
+    "module": "amplify",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amplify-metadata-0.1.0-SNAPSHOT.jar",
+          "url": "amplify-0.1.0-SNAPSHOT.jar",
+          "size": 2738,
+          "sha512": "8ed47ac1014afd69ae6202baf44e3938d5503ee01f2702ed886a0e393ef03f89ef97f39b4c0f0065c6f85d1e5b4369190ba687c0afb8f56b1f9901bc79fbeb9b",
+          "sha256": "a584f3fedb006d7d59ae1fabee27a1e8b590580c9732ff5847ee333ccc2a00c3",
+          "sha1": "4fad72d4911659445b63a952a9c16fa16e26d3d4",
+          "md5": "9797793ef9c3cfa1de1916c48a0736cb"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "amplify-kotlin-0.1.0-SNAPSHOT-sources.jar",
+          "url": "amplify-0.1.0-SNAPSHOT-sources.jar",
+          "size": 2446,
+          "sha512": "7833bd99eaed726e449370d7c3977e011868cec362db7987dae598ebd6f002578d0838e36c3c60437cdaeb92ee016d8b77f0dcd69cd8e3a5f16ffd1ed1532046",
+          "sha256": "e44ab9c23c9f0c099c89ed5501318250bed1ba5f805812d48aca63da7d75fedc",
+          "sha1": "dc93768a6741ee5f4b977ae47c90a4861f831e74",
+          "md5": "c5969a3812485967eb8117b70c5d40fe"
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../amplify-desktop/0.1.0-SNAPSHOT/amplify-desktop-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-desktop",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../amplify-desktop/0.1.0-SNAPSHOT/amplify-desktop-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-desktop",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../amplify-desktop/0.1.0-SNAPSHOT/amplify-desktop-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-desktop",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iosarm64/0.1.0-SNAPSHOT/amplify-iosarm64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iosarm64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iosarm64/0.1.0-SNAPSHOT/amplify-iosarm64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iosarm64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iosarm64/0.1.0-SNAPSHOT/amplify-iosarm64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iosarm64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iossimulatorarm64/0.1.0-SNAPSHOT/amplify-iossimulatorarm64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iossimulatorarm64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iossimulatorarm64/0.1.0-SNAPSHOT/amplify-iossimulatorarm64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iossimulatorarm64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iossimulatorarm64/0.1.0-SNAPSHOT/amplify-iossimulatorarm64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iossimulatorarm64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iosx64/0.1.0-SNAPSHOT/amplify-iosx64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iosx64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iosx64/0.1.0-SNAPSHOT/amplify-iosx64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iosx64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../amplify-iosx64/0.1.0-SNAPSHOT/amplify-iosx64-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-iosx64",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../amplify-wasm-js/0.1.0-SNAPSHOT/amplify-wasm-js-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-wasm-js",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../amplify-wasm-js/0.1.0-SNAPSHOT/amplify-wasm-js-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-wasm-js",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../amplify-wasm-js/0.1.0-SNAPSHOT/amplify-wasm-js-0.1.0-SNAPSHOT.module",
+        "group": "pro.layne.amps.kmp",
+        "module": "amplify-wasm-js",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    }
+  ]
+}

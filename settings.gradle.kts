@@ -1,22 +1,35 @@
+rootProject.name = "Amps2"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 pluginManagement {
     repositories {
-        google()
-        gradlePluginPortal()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
+        gradlePluginPortal()
         maven { url = File(rootDir, "repo").toURI() }
+        mavenLocal()
     }
 }
 
 dependencyResolutionManagement {
     repositories {
-        google()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
         maven { url = File(rootDir, "repo").toURI() }
+        mavenLocal()
     }
 }
 
-rootProject.name = "AmpsKMP"
-include(":android")
-include(":shared")
-//includeBuild("../AmpsKMPLib")
+include(":app")

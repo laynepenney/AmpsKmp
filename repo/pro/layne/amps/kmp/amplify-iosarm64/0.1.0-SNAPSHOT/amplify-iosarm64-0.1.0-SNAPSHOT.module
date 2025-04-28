@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../amplify/0.1.0-SNAPSHOT/amplify-0.1.0-SNAPSHOT.module",
+    "group": "pro.layne.amps.kmp",
+    "module": "amplify",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amplify-iosArm64Main-0.1.0-SNAPSHOT.klib",
+          "url": "amplify-iosarm64-0.1.0-SNAPSHOT.klib",
+          "size": 6423,
+          "sha512": "c7ed4cc6ecf46e4ce5f325e263ed92b66e16f6a5570f03d0c3facc0fb8a28324f6cd3c6516c622a28ce78253066abd7f51e9ef4cc3da370eee482ecfd703feb8",
+          "sha256": "0e320ba891c7142c9ed5566c9d69bc4c865b61517b85403ff85ce6db2e719401",
+          "sha1": "57141b70346de0565c9ea5ab5bc4d9730a0a957d",
+          "md5": "6eefd9840fcb530b69e0d8caf0c15a65"
+        },
+        {
+          "name": "amplify-iosArm64Cinterop-AmplifyIosMain-0.1.0-SNAPSHOT.klib",
+          "url": "amplify-iosarm64-0.1.0-SNAPSHOT-cinterop-AmplifyIos.klib",
+          "size": 24294402,
+          "sha512": "9ac43e9ee1e6b8109b6f2545e4875e4ca25103092bb2547af3917fc572b1b0b007bc94bc356a47b19c6f7470dec52f1d26c366a1219d03948c72c42fdf14cb70",
+          "sha256": "e9a6508c0de3945512c7396e7bb96a4bfb9e9719deb2f7e5dee27a612489ef1c",
+          "sha1": "e314ef02d7bca61ade4e475885b4763346726a35",
+          "md5": "e714a9f12bc3f4734bed071cf9aa8f35"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "amplify-iosarm64-0.1.0-SNAPSHOT-sources.jar",
+          "url": "amplify-iosarm64-0.1.0-SNAPSHOT-sources.jar",
+          "size": 2446,
+          "sha512": "5483a10425c175692e5976dcd55242ab55c6556794d8c623190f7d69eda99f1fbbdd432ce4f6f7159b9c2a235837b564ec8ec40823321165d206ebe1f9f82266",
+          "sha256": "29689b8935862d74ebd98d1a1f4712b7d4f8d9c9294a184cddd4863b40b95b7a",
+          "sha1": "72ed30a657be6f47cf436d7ba9ce7dc70f03210a",
+          "md5": "684498fc5955a1e732af4d44308419b5"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amplify-iosarm64-0.1.0-SNAPSHOT-metadata.jar",
+          "url": "amplify-iosarm64-0.1.0-SNAPSHOT-metadata.jar",
+          "size": 23406,
+          "sha512": "a98f3d37cdc32e4262a4414197c0b29fb5e4c9cf2e4b57baae7bd9e6f89ef4bbd0de9425755e4b559cd369dd1525e249a3c27413052f7da6bdc73616c3f3e045",
+          "sha256": "5bbe87d56a7dea87d70e8b2e818176d18db74c82367d4b1fe3f404218a1b1b3b",
+          "sha1": "1e67c0f19c94db46663b964832655f88f976a8e8",
+          "md5": "0ed9885f7cdcae331703719759a39551"
+        }
+      ]
+    }
+  ]
+}

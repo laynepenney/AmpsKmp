@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../amplify/0.1.0-SNAPSHOT/amplify-0.1.0-SNAPSHOT.module",
+    "group": "pro.layne.amps.kmp",
+    "module": "amplify",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amplify-desktop-0.1.0-SNAPSHOT.jar",
+          "url": "amplify-desktop-0.1.0-SNAPSHOT.jar",
+          "size": 3629,
+          "sha512": "676bad38a5c8e8efe02e57943cb69a40fd9d5fa65b223cec3fb7d41c70be444718ac41e4f88dac204687eaec9de19dcb3d46c07fe51cdc88405d1984e969d9b9",
+          "sha256": "a578ff16aa478cb14e9d081eac61a8b81090931a846e708ae6ea2bda715d1752",
+          "sha1": "e3a82a2ed15e56dfaf12d26428830eb5c472e6f1",
+          "md5": "866533f70ef47927579754555a0ab647"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amplify-desktop-0.1.0-SNAPSHOT.jar",
+          "url": "amplify-desktop-0.1.0-SNAPSHOT.jar",
+          "size": 3629,
+          "sha512": "676bad38a5c8e8efe02e57943cb69a40fd9d5fa65b223cec3fb7d41c70be444718ac41e4f88dac204687eaec9de19dcb3d46c07fe51cdc88405d1984e969d9b9",
+          "sha256": "a578ff16aa478cb14e9d081eac61a8b81090931a846e708ae6ea2bda715d1752",
+          "sha1": "e3a82a2ed15e56dfaf12d26428830eb5c472e6f1",
+          "md5": "866533f70ef47927579754555a0ab647"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "amplify-desktop-0.1.0-SNAPSHOT-sources.jar",
+          "url": "amplify-desktop-0.1.0-SNAPSHOT-sources.jar",
+          "size": 2389,
+          "sha512": "94c9ccf19cc109e914be00bf643ebde856e2610013f2bedc3e6dead34ba5d57bd94cff4be181ef44824884e6d5ec1aa696dff27394c311a5bd14f36694883035",
+          "sha256": "06450b9d52771f265298939dd345f9b5a15f3aab62cd27243fc11a8ef0adf2f8",
+          "sha1": "cc35463aed023a5dcce50f7e3f4c472564a0a2aa",
+          "md5": "bd6fdf5754a8472bfc0b9cc5d20b215a"
+        }
+      ]
+    }
+  ]
+}
